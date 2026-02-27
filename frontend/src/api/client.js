@@ -3,7 +3,7 @@ import axios from "axios";
 const AUTH_KEY = "mini_tasks_auth";
 
 const client = axios.create({
-  baseURL: "https://localhost:7288/api",
+  baseURL: "http://localhost:8080/api",
 });
 
 client.interceptors.request.use((config) => {
