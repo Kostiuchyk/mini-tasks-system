@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/MiniTasksSystem.Api/MiniTasksSystem.Api.csproj" />
+    <Project Path="src/MiniTasksSystem.Application/MiniTasksSystem.Application.csproj" />
+    <Project Path="src/MiniTasksSystem.Domain/MiniTasksSystem.Domain.csproj" />
+    <Project Path="src/MiniTasksSystem.Infrastructure/MiniTasksSystem.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+  </Folder>
+</Solution>
