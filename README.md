@@ -23,6 +23,8 @@ npm install
 npm run dev
 ```
 
+> **Note:** Be sure to open the frontend at http://localhost:5173/
+
 ## Default Users
 
 | Email | Password | Role |
