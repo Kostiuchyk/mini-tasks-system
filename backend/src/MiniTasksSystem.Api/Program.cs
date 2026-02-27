@@ -15,7 +15,10 @@ builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddPresentation(builder.Configuration);
 
-builder.AddObservability();
+if (!builder.Environment.IsEnvironment("Testing"))
+{
+    builder.AddObservability();
+}
 
 var app = builder.Build();
 
@@ -68,3 +71,5 @@ api.MapGroup("/users")
     .RequireAuthorization();
 
 app.Run();
+
+public partial class Program { }

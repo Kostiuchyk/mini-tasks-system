@@ -10,5 +10,6 @@
     <Project Path="src/MiniTasksSystem.Infrastructure/MiniTasksSystem.Infrastructure.csproj" />
   </Folder>
   <Folder Name="/tests/">
+    <Project Path="tests/MiniTasksSystem.Application.IntegrationTests/MiniTasksSystem.Application.IntegrationTests.csproj" />
   </Folder>
 </Solution>
